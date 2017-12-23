@@ -39,7 +39,7 @@ getData(function (data) {
 
 
 function getData(callback) {
-   ( function (response) {
+    (function (response) {
         callback(response);
     });
 }
@@ -54,15 +54,15 @@ function validate() {
     console.log("in validate");
     var x = document.getElementById("Sc").value;
     if (document.getElementById("Sc").value == "") {
-        alert("name required");
+        alert("Please enter your Name");
     } else {
 
         document.getElementById("Sc").value = x;
         console.log("hello" + x)
-        alert("hello  " + x);
 
+        displayResult();
     }
-    displayResult();
+
 }
 
 
@@ -71,7 +71,7 @@ function displayResult() {
     var itemVal = document.getElementById("select");
     if (itemVal.selectedIndex == 0) {
 
-        alert("please select any one option");
+        alert("Please select any one option");
 
     }
 
@@ -79,12 +79,12 @@ function displayResult() {
         console.log("in cloths");
         var val = document.getElementById("price");
         if (val.value == 0) {
-            alert("select big amount");
+            alert("Enter your amount");
         } else {
             console.log(val.value);
             clothVal2 = val.value * 1.5;
             console.log(clothVal2);
-            alert("your total price with GST is  " + clothVal2);
+            alert("Your total price with GST is  " + clothVal2);
         }
 
 
@@ -96,12 +96,12 @@ function displayResult() {
         console.log("in FOOD");
         var val = document.getElementById("price");
         if (val.value == 0) {
-            alert("select big amount");
+            alert("Enter your amount");
         } else {
             console.log(val.value);
             clothVal2 = val.value * 1.75;
             console.log(clothVal2);
-            alert("your total price with GST is  " + clothVal2);
+            alert("Your total price with GST is  " + clothVal2);
         }
 
 
@@ -117,7 +117,7 @@ function displayResult() {
             console.log(val.value);
             clothVal2 = val.value * 1.25;
             console.log(clothVal2);
-            alert("your total price with GST is  " + clothVal2);
+            alert("Your total price with GST is  " + clothVal2);
         }
 
 
