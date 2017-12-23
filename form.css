@@ -1,0 +1,87 @@
+body {
+
+    background-image: url("../images/1.jpg");
+    margin: 0 auto;
+    /*z-index: 1;
+opacity: 0.6;*/
+}
+
+.BodyCls {
+
+    background-color: rgb(255, 223, 0);
+    /*
+    opacity: .4;*/
+}
+
+h2 {
+
+    margin: 0 auto;
+    color: red;
+    text-align: center;
+
+}
+
+.form {
+    border: 1px solid gainsboro;
+    border-radius: 4px;
+    background: linear-gradient(0deg, rgba(255, 0, 150, 0.3), rgba(255, 0, 150, 1));
+    width: 475px;
+    height: 300px;
+    /* background-color: Grey; */
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 10%;
+    margin-top: 50px;
+}
+
+
+
+#select {
+
+
+    margin-right: 5px;
+
+}
+
+.headerCls {
+
+    margin: 0 auto;
+    padding: 17px;
+    width: 160px;
+}
+
+.rateApp {
+    /*
+    padding-top: 60px;*/
+    width: 101px;
+    margin: 0 auto;
+}
+
+.rating {
+
+    text-align: center;
+    padding-top: 20px;
+    color: gainsboro;
+}
+
+h1 {
+
+    text-align: center;
+    margin: 0;
+
+}
+
+.ratename {
+
+
+    padding-top: 20px;
+
+}
+
+.nextBtn {
+
+
+    width: 75PX;
+    margin: 0 auto;
+
+}

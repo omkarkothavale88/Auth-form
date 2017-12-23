@@ -1,0 +1,72 @@
+<!DOCTYPE>
+<html>
+<title>GST CALCULATOR</title>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="form.css" />
+    <script src="form.js"></script>
+    <script src="jquery-3.2.1.min.js"></script>
+</head>
+
+<body>
+    <div class="BodyCls">
+        <div class="headerCls">
+            <h2>GST calculator</h2>
+        </div>
+    </div>
+    <div class="form">
+        <h1 id="demo">
+        </h1>
+
+        <h4>Name
+            <input type="text" Id="Sc" placeholder="enter your name">
+            <span class="glyphicon glyphicon-eye-open"></span>
+        </h4>
+
+        <h4> Item
+            <select Id="select" name="items" placeholder="enter your price" />
+            <option value="none" selected>select any item </option>
+            <option value="Cloth">Cloths</option>
+            <option value="food">Food</option>
+            <option value="Fuel">Fuel</option>
+        </h4>
+
+
+        <h4>Price
+            <input type="text" Id="price" placeholder="enter your price">Rs.
+        </h4>
+        <button type="Submit" onclick="getData();">Submit</button>
+        <!--<button type="Submit" onclick="getReceipt('om',function(){alert(" hi ")});">Get receipt</button>--><button type="Submit" onclick="getallData();">See my progress  </button>
+
+        <progress value="90" max="100" id="pb"></progress>
+    </div>
+
+
+    <div class="nextBtn">
+        <a href="HOME.html"><button>Go Home</button></a>
+    </div>
+
+    <!--
+<div class="rateApp">
+    <div class="rating">
+        <h1 id="number">0</h1>
+    </div>
+    <div class="ratename"><button type="Submit" onclick="read('ello', function () {
+                                console.log(" ddd ");
+                                        });">
+                                Rate This App</button>
+
+    </div>
+    <button value="changeSize" onclick=CallbackCheck1(CallbackCheck2);>Change</button>
+    <button value="GETJSON" onclick=GETJSON();>GETJSON</button>
+    <p id="demoX"></p>
+</div>
+
+<div id="square" style="color: black; height: 100px;width: 100px;margin: 0 auto; background-color:red"> I am changing</div>
+-->
+
+</body>
+
+
+
+</html>
